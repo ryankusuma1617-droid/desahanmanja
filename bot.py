@@ -58,7 +58,7 @@ async def button_callback(update: Update, context) -> None:
         )
         keyboard = [
             [
-                InlineKeyboardButton("💋 RTP GACOR", url=RTP_GACOR_URL),
+                InlineKeyboardButton("💋 LINK", url=RTP_GACOR_URL),
             ]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -70,7 +70,7 @@ async def button_callback(update: Update, context) -> None:
         )
         keyboard = [
             [
-                InlineKeyboardButton("💋 Download APK", url=DOWNLOAD_APK_URL),
+                InlineKeyboardButton("💋 LINK", url=DOWNLOAD_APK_URL),
             ]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -82,13 +82,13 @@ async def button_callback(update: Update, context) -> None:
         )
         keyboard = [
             [
-                InlineKeyboardButton("📱 TELEGRAM", url=CONTACT_TELEGRAM),
+                InlineKeyboardButton("📱 LINK", url=CONTACT_TELEGRAM),
             ],
             [
-                InlineKeyboardButton("📩 WHATSAPP", url=CONTACT_WHATSAPP),
+                InlineKeyboardButton("📩 LINK", url=CONTACT_WHATSAPP),
             ],
             [
-                InlineKeyboardButton("💬 LIVECHAT", url=CONTACT_LIVECHAT),
+                InlineKeyboardButton("💬 LINK", url=CONTACT_LIVECHAT),
             ]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
